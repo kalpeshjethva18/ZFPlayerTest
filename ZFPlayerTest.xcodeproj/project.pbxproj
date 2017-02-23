@@ -52,7 +52,6 @@
 		4B118D661E4AB1970029AC2A /* ZFPlayerTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZFPlayerTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B118D6A1E4AB1970029AC2A /* ZFPlayerTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZFPlayerTestUITests.swift; sourceTree = "<group>"; };
 		4B118D6C1E4AB1970029AC2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4B118D781E4ABE490029AC2A /* ZFPlayer_bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFPlayer_bridge.h; sourceTree = "<group>"; };
 		4B118D791E4AC24A0029AC2A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		4B118D7F1E4AC2FC0029AC2A /* videoData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videoData.json; sourceTree = "<group>"; };
 		4B118D801E4AC2FC0029AC2A /* ZFVideoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFVideoModel.h; sourceTree = "<group>"; };
@@ -141,7 +140,6 @@
 				4B118D791E4AC24A0029AC2A /* Main.storyboard */,
 				4B118D8F1E4AC4390029AC2A /* ZFPlayer.bundle */,
 				4B118D561E4AB1970029AC2A /* Info.plist */,
-				4B118D781E4ABE490029AC2A /* ZFPlayer_bridge.h */,
 			);
 			path = ZFPlayerTest;
 			sourceTree = "<group>";
@@ -513,7 +511,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xxx.ZFPlayerTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/ZFPlayerTest/ZFPLayer_bridge.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -529,7 +527,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xxx.ZFPlayerTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/ZFPlayerTest/ZFPLayer_bridge.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
