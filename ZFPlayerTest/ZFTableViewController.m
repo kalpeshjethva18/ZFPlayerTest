@@ -130,8 +130,8 @@
         _playerView = [ZFPlayerView sharedPlayerView];
         _playerView.delegate = self;
         
-//        // 当cell播放视频由全屏变为小屏时候，不回到中间位置
-//        _playerView.cellPlayerOnCenter = NO;
+        // 当cell播放视频由全屏变为小屏时候，不回到中间位置
+        _playerView.cellPlayerOnCenter = NO;
         
 //        // 当cell划出屏幕的时候停止播放（若不停止则可在屏幕右下角进行小窗口续播）
 //        _playerView.stopPlayWhileCellNotVisable = YES;

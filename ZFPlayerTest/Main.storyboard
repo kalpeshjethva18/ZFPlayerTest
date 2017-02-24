@@ -115,7 +115,7 @@
                                                 <constraint firstAttribute="width" constant="40" id="wzS-1J-Kx5"/>
                                             </constraints>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ZFPlayer就是好用" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4gZ-Ms-O7R">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="哈哈哈" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4gZ-Ms-O7R">
                                             <rect key="frame" x="76" y="10" width="281" height="18"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                             <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -181,8 +181,8 @@
                                         <mask key="constraints">
                                             <exclude reference="DPE-eF-clB"/>
                                             <exclude reference="blK-oc-ESv"/>
-                                            <exclude reference="scj-AH-svU"/>
                                             <exclude reference="E7s-Tt-Y9s"/>
+                                            <exclude reference="scj-AH-svU"/>
                                         </mask>
                                     </variation>
                                 </tableViewCellContentView>

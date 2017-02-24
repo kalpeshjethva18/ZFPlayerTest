@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4B118D4B1E4AB1970029AC2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B118D4A1E4AB1970029AC2A /* AppDelegate.swift */; };
 		4B118D521E4AB1970029AC2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B118D511E4AB1970029AC2A /* Assets.xcassets */; };
 		4B118D551E4AB1970029AC2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B118D531E4AB1970029AC2A /* LaunchScreen.storyboard */; };
 		4B118D601E4AB1970029AC2A /* ZFPlayerTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B118D5F1E4AB1970029AC2A /* ZFPlayerTestTests.swift */; };
@@ -18,6 +17,7 @@
 		4B118D8D1E4AC2FC0029AC2A /* ZFPlayerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B118D851E4AC2FC0029AC2A /* ZFPlayerCell.m */; };
 		4B118D931E4ACD9B0029AC2A /* ZFPVideoResolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B118D911E4ACD9B0029AC2A /* ZFPVideoResolution.m */; };
 		4B118D961E4ACDD10029AC2A /* ZFTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B118D951E4ACDD10029AC2A /* ZFTableViewController.m */; };
+		4B271E371E5FC8FA0094A219 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B271E361E5FC8FA0094A219 /* AppDelegate.swift */; };
 		EB65D3450E36F827E60C5BF5 /* libPods-ZFPlayerTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E19F013D7D5384963F162A3 /* libPods-ZFPlayerTest.a */; };
 /* End PBXBuildFile section */
 
@@ -42,7 +42,6 @@
 		0E19F013D7D5384963F162A3 /* libPods-ZFPlayerTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZFPlayerTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2681D341466B269ACE6F0FC4 /* Pods-ZFPlayerTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFPlayerTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZFPlayerTest/Pods-ZFPlayerTest.debug.xcconfig"; sourceTree = "<group>"; };
 		4B118D471E4AB1970029AC2A /* ZFPlayerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZFPlayerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B118D4A1E4AB1970029AC2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B118D511E4AB1970029AC2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B118D541E4AB1970029AC2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B118D561E4AB1970029AC2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -63,6 +62,7 @@
 		4B118D921E4ACD9B0029AC2A /* ZFVideoResolution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFVideoResolution.h; sourceTree = "<group>"; };
 		4B118D941E4ACDD10029AC2A /* ZFTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFTableViewController.h; sourceTree = "<group>"; };
 		4B118D951E4ACDD10029AC2A /* ZFTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFTableViewController.m; sourceTree = "<group>"; };
+		4B271E361E5FC8FA0094A219 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6650E3FD502E51B91204379D /* Pods-ZFPlayerTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFPlayerTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZFPlayerTest/Pods-ZFPlayerTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -125,7 +125,7 @@
 		4B118D491E4AB1970029AC2A /* ZFPlayerTest */ = {
 			isa = PBXGroup;
 			children = (
-				4B118D4A1E4AB1970029AC2A /* AppDelegate.swift */,
+				4B271E361E5FC8FA0094A219 /* AppDelegate.swift */,
 				4B118D941E4ACDD10029AC2A /* ZFTableViewController.h */,
 				4B118D951E4ACDD10029AC2A /* ZFTableViewController.m */,
 				4B118D7F1E4AC2FC0029AC2A /* videoData.json */,
@@ -243,6 +243,7 @@
 					4B118D461E4AB1970029AC2A = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = RHYXLE7GFE;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					4B118D5A1E4AB1970029AC2A = {
@@ -358,10 +359,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B118D4B1E4AB1970029AC2A /* AppDelegate.swift in Sources */,
 				4B118D8D1E4AC2FC0029AC2A /* ZFPlayerCell.m in Sources */,
 				4B118D961E4ACDD10029AC2A /* ZFTableViewController.m in Sources */,
 				4B118D931E4ACD9B0029AC2A /* ZFPVideoResolution.m in Sources */,
+				4B271E371E5FC8FA0094A219 /* AppDelegate.swift in Sources */,
 				4B118D8B1E4AC2FC0029AC2A /* ZFVideoModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +506,7 @@
 			baseConfigurationReference = 2681D341466B269ACE6F0FC4 /* Pods-ZFPlayerTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = RHYXLE7GFE;
 				INFOPLIST_FILE = ZFPlayerTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
@@ -512,6 +514,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = xxx.ZFPlayerTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -521,6 +524,7 @@
 			baseConfigurationReference = 6650E3FD502E51B91204379D /* Pods-ZFPlayerTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = RHYXLE7GFE;
 				INFOPLIST_FILE = ZFPlayerTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
