@@ -17,6 +17,8 @@
 		4B118D8D1E4AC2FC0029AC2A /* ZFPlayerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B118D851E4AC2FC0029AC2A /* ZFPlayerCell.m */; };
 		4B118D931E4ACD9B0029AC2A /* ZFPVideoResolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B118D911E4ACD9B0029AC2A /* ZFPVideoResolution.m */; };
 		4B118D961E4ACDD10029AC2A /* ZFTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B118D951E4ACDD10029AC2A /* ZFTableViewController.m */; };
+		4B1976D61E66C187004CA2E1 /* TestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1976D51E66C187004CA2E1 /* TestCell.swift */; };
+		4B1976D91E66C9DA004CA2E1 /* TestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1976D81E66C9DA004CA2E1 /* TestController.swift */; };
 		4B271E371E5FC8FA0094A219 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B271E361E5FC8FA0094A219 /* AppDelegate.swift */; };
 		EB65D3450E36F827E60C5BF5 /* libPods-ZFPlayerTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E19F013D7D5384963F162A3 /* libPods-ZFPlayerTest.a */; };
 /* End PBXBuildFile section */
@@ -62,6 +64,9 @@
 		4B118D921E4ACD9B0029AC2A /* ZFVideoResolution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFVideoResolution.h; sourceTree = "<group>"; };
 		4B118D941E4ACDD10029AC2A /* ZFTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFTableViewController.h; sourceTree = "<group>"; };
 		4B118D951E4ACDD10029AC2A /* ZFTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFTableViewController.m; sourceTree = "<group>"; };
+		4B1976D51E66C187004CA2E1 /* TestCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestCell.swift; sourceTree = "<group>"; };
+		4B1976D71E66C4DA004CA2E1 /* bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bridge.h; sourceTree = "<group>"; };
+		4B1976D81E66C9DA004CA2E1 /* TestController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestController.swift; sourceTree = "<group>"; };
 		4B271E361E5FC8FA0094A219 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6650E3FD502E51B91204379D /* Pods-ZFPlayerTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFPlayerTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZFPlayerTest/Pods-ZFPlayerTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -135,11 +140,14 @@
 				4B118D811E4AC2FC0029AC2A /* ZFVideoModel.m */,
 				4B118D841E4AC2FC0029AC2A /* ZFPlayerCell.h */,
 				4B118D851E4AC2FC0029AC2A /* ZFPlayerCell.m */,
+				4B1976D51E66C187004CA2E1 /* TestCell.swift */,
+				4B1976D81E66C9DA004CA2E1 /* TestController.swift */,
 				4B118D511E4AB1970029AC2A /* Assets.xcassets */,
 				4B118D531E4AB1970029AC2A /* LaunchScreen.storyboard */,
 				4B118D791E4AC24A0029AC2A /* Main.storyboard */,
 				4B118D8F1E4AC4390029AC2A /* ZFPlayer.bundle */,
 				4B118D561E4AB1970029AC2A /* Info.plist */,
+				4B1976D71E66C4DA004CA2E1 /* bridge.h */,
 			);
 			path = ZFPlayerTest;
 			sourceTree = "<group>";
@@ -360,10 +368,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B118D8D1E4AC2FC0029AC2A /* ZFPlayerCell.m in Sources */,
+				4B1976D61E66C187004CA2E1 /* TestCell.swift in Sources */,
 				4B118D961E4ACDD10029AC2A /* ZFTableViewController.m in Sources */,
 				4B118D931E4ACD9B0029AC2A /* ZFPVideoResolution.m in Sources */,
 				4B271E371E5FC8FA0094A219 /* AppDelegate.swift in Sources */,
 				4B118D8B1E4AC2FC0029AC2A /* ZFVideoModel.m in Sources */,
+				4B1976D91E66C9DA004CA2E1 /* TestController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,7 +523,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xxx.ZFPlayerTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/ZFPlayerTest/bridge.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
@@ -531,7 +541,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xxx.ZFPlayerTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/ZFPlayerTest/bridge.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
