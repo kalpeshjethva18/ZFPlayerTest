@@ -59,7 +59,6 @@
 		4B118D811E4AC2FC0029AC2A /* ZFVideoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFVideoModel.m; sourceTree = "<group>"; };
 		4B118D841E4AC2FC0029AC2A /* ZFPlayerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayerCell.h; sourceTree = "<group>"; };
 		4B118D851E4AC2FC0029AC2A /* ZFPlayerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFPlayerCell.m; sourceTree = "<group>"; };
-		4B118D8F1E4AC4390029AC2A /* ZFPlayer.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZFPlayer.bundle; sourceTree = "<group>"; };
 		4B118D911E4ACD9B0029AC2A /* ZFPVideoResolution.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFPVideoResolution.m; sourceTree = "<group>"; };
 		4B118D921E4ACD9B0029AC2A /* ZFVideoResolution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFVideoResolution.h; sourceTree = "<group>"; };
 		4B118D941E4ACDD10029AC2A /* ZFTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFTableViewController.h; sourceTree = "<group>"; };
@@ -145,7 +144,6 @@
 				4B118D511E4AB1970029AC2A /* Assets.xcassets */,
 				4B118D531E4AB1970029AC2A /* LaunchScreen.storyboard */,
 				4B118D791E4AC24A0029AC2A /* Main.storyboard */,
-				4B118D8F1E4AC4390029AC2A /* ZFPlayer.bundle */,
 				4B118D561E4AB1970029AC2A /* Info.plist */,
 				4B1976D71E66C4DA004CA2E1 /* bridge.h */,
 			);
