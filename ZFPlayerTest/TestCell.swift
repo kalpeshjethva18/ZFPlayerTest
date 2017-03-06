@@ -13,31 +13,24 @@ class TestCell: UITableViewCell {
     var titleLabel: UILabel!
     var picView: UIImageView!
     var playBtn: UIButton!
-//    var playBtnHandler: ((_ btn: UIButton) -> Void)?
     var playBtnHandler: (() -> Void)?
 
     
-//    var model = ZFVideoModel() {
-//        didSet {
-//            picView.sd_setImage(with: NSURL(string: model.coverForFeed) as URL?, placeholderImage: UIImage(named: "loading_bgView"))
-//        }
-//    }
     
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         
-        titleLabel = UILabel(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: 100))
+        titleLabel = UILabel(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: 50))
         titleLabel.textAlignment = .center
         addSubview(titleLabel)
         
-        picView = UIImageView(frame: CGRect(x: 0, y: 100, width: UIScreen.main.bounds.width, height: 300))
+        picView = UIImageView(frame: CGRect(x: 0, y: 50, width: UIScreen.main.bounds.width, height: 300))
         picView.sd_setImage(with: NSURL(string: "") as URL?, placeholderImage: UIImage(named: "loading_bgView"))
-//        picView.tag = 101
         picView.isUserInteractionEnabled = true
         addSubview(picView)
         
         playBtn = UIButton(type: .custom)
-        playBtn.frame = CGRect(x: 100, y: 100, width: 50, height: 50)
+        playBtn.frame = CGRect(x: 150, y: 150, width: 50, height: 50)
         playBtn.setImage(UIImage(named: "video_list_cell_big_icon"), for: .normal)
         playBtn.addTarget(self, action: #selector(playBtnClicked), for: .touchUpInside)
         picView.addSubview(playBtn)
