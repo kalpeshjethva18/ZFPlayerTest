@@ -64,9 +64,9 @@
 		4B118D941E4ACDD10029AC2A /* ZFTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFTableViewController.h; sourceTree = "<group>"; };
 		4B118D951E4ACDD10029AC2A /* ZFTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFTableViewController.m; sourceTree = "<group>"; };
 		4B1976D51E66C187004CA2E1 /* TestCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestCell.swift; sourceTree = "<group>"; };
-		4B1976D71E66C4DA004CA2E1 /* bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bridge.h; sourceTree = "<group>"; };
 		4B1976D81E66C9DA004CA2E1 /* TestController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestController.swift; sourceTree = "<group>"; };
 		4B271E361E5FC8FA0094A219 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4BD9BA411E8226D1006DAB78 /* ZFPlayerTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZFPlayerTest-Bridging-Header.h"; sourceTree = "<group>"; };
 		6650E3FD502E51B91204379D /* Pods-ZFPlayerTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFPlayerTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZFPlayerTest/Pods-ZFPlayerTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -145,7 +145,7 @@
 				4B118D531E4AB1970029AC2A /* LaunchScreen.storyboard */,
 				4B118D791E4AC24A0029AC2A /* Main.storyboard */,
 				4B118D561E4AB1970029AC2A /* Info.plist */,
-				4B1976D71E66C4DA004CA2E1 /* bridge.h */,
+				4BD9BA411E8226D1006DAB78 /* ZFPlayerTest-Bridging-Header.h */,
 			);
 			path = ZFPlayerTest;
 			sourceTree = "<group>";
@@ -521,7 +521,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xxx.ZFPlayerTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/ZFPlayerTest/bridge.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/ZFPlayerTest/ZFPlayerTest-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
@@ -539,7 +539,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xxx.ZFPlayerTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/ZFPlayerTest/bridge.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/ZFPlayerTest/ZFPlayerTest-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
